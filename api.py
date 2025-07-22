@@ -76,6 +76,10 @@ def predict_property_risk(data):
 def health_check():
     return jsonify({'message': 'Backend is running'}), 200
 
+@app.route('/ping', methods=['GET'])
+def ping():
+    return jsonify({'message': 'pong'}), 200
+
 @app.route('/predict/medical', methods=['POST'])
 def medical_prediction():
     try:
