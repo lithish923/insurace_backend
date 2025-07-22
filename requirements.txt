@@ -11,3 +11,5 @@ Flask-Cors
 
 # Used for saving and loading trained models
 joblib
+
+lightgbm
