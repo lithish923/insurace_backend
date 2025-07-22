@@ -1,0 +1,13 @@
+# Core data manipulation and numerical operations
+pandas
+numpy
+
+# Machine learning library for models and metrics
+scikit-learn
+
+# Web framework for creating the API
+Flask
+Flask-Cors
+
+# Used for saving and loading trained models
+joblib
